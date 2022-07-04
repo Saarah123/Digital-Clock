@@ -19,10 +19,14 @@ const handleChange = ()=>{
 
 
   return (
+    <>
+    <h1 className='clock'><i>DIGITAL CLOCK</i></h1>
     <div className="sakshi">
+      
      <h1>{ctime}</h1>
    
     </div>
+    </>
   );
 }
 
